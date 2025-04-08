@@ -289,7 +289,7 @@ def add_custom_words():
         open(CUSTOM_WORD_FILE, "a").close()
 
     while True:
-        word = input("Enter a word (4-10 letters) or 'done': ").lower().strip()
+        word = input("Enter a word (4-20 letters) or 'done': ").lower().strip()
         
         if word == "done":
             break
