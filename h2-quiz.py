@@ -329,7 +329,7 @@ def main():
             hangman()
             clear_screen()   # Clear screen when returning to main menu
         
-        elif choice == "3":
+        elif choice == "2":
             add_custom_words()
             clear_screen()   # Clear screeen when returning to main menu
         
